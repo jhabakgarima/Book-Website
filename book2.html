@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Percy Jackson</title>
+        <link rel="stylesheet" href="./style.css">
+        <style>
+            body{
+                overflow-x: hidden;
+            }
+            body::before{
+                content: "";
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-image: url('./images/bg2.jpg') ;
+                background-size: cover;
+                background-position: center;
+                opacity: 0.6;
+                z-index: -1;
+            }
+            .book{
+                display: flex;
+                gap: 10px;
+                padding: 20px;
+                border-radius: 10px;
+                flex-wrap:wrap;
+                justify-content: space-evenly;
+                height: 500px;   
+            }
+            .book p{
+                color:black;
+            }
+
+            .book1{
+                padding: 10px;
+                background-color: #060707;
+                border: 1px solid #191a1c;
+                border-radius: 5px;
+                text-align: center;
+                font-weight: bold;
+                margin: 30px;
+                width: 250px;
+                height: 350px;
+                justify-content: space-evenly;
+            }
+            .book1 a{
+                text-decoration: none;
+            }
+            .book1 img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <h4
+            style="background-color: black; padding:1px 0px 1px 0px; margin:1px">
+            <nav>
+                <ul>
+                    <li><a href="index.html"><b>Home</b></a></li>
+                    <li><a href="contact.html"><b>Contact</b></a></li>
+                    <li><a href="about.html"><b>About</b></a></li>
+                </ul>
+                <h1
+                    style="font-size:60px;  font-family: 'PerryGot'; font-weight:200; color:#f6f3ef; background-color:black; padding:10px; margin:5px;transition: color 0.4s ease-in-out, transform 0.4s ease-in-out;"><nav style=" font: weight 100px;">Percy
+                        Jackson World</nav></h1>
+
+            </nav>
+        </h4>
+
+        <div class="book" style="display: flex; height:900px">
+            <div class="book1">
+                <a
+                    href="https://www.flipkart.com/percy-jackson-lightning-thief-book-1-jackson/p/itm2e6359df203ea?pid=9780141346809&marketplace=FLIPKART"
+                    target="_blank">
+                    <img src="./images/ph1.jpg">
+                    <p>Percy Jackson and the Lightning Theif</p></a>
+            </div>
+
+            <div class="book1">
+                <a
+                    href="https://www.amazon.in/Percy-Jackson-Olympians-Book-Two/dp/1423103343"
+                    target="_blank">
+                    <img src="./images/ph2.jpg" alt>
+                    <p>Percy Jackson and the Sea of Monsters</p></a>
+            </div>
+
+            <div class="book1">
+                <a
+                    href="https://www.amazon.in/Percy-Jackson-Olympians-Book-Three/dp/1423101480"
+                    target="_blank">
+                    <img src="./images/ph3.jpg" alt>
+                    <p>Percy Jackson and the Titan's Curse</p></a>
+            </div>
+
+            <div class="book1">
+                <a
+                    href="https://www.amazon.in/s?k=percy+jackson+book&adgrpid=57647448143&ext_vrnc=hi&hvadid=356396490948&hvdev=c&hvlocphy=9061773&hvnetw=g&hvqmt=e&hvrand=18089429370314765681&hvtargid=kwd-301829177661&hydadcr=24956_1930036&mcid=b0c48d7c728c3d259c46a353ced2878d&tag=googinhydr1-21&ref=pd_sl_90kdbpv2wv_e"
+                    target="_blank">
+                    <img src="./images/ph4.jpg" alt>
+                    <p>Percy Jackson and the Battle of Labyrinth</p></a>
+            </div>
+
+            <div class="book1">
+                <a
+                    href="https://www.amazon.in/Percy-Jackson-Last-Olympian-Book/dp/0141346884"
+                    target="_blank">
+                    <img src="./images/ph5.jpg" alt>
+                    <p>Percy Jackson and the Last Olympian</p></a>
+            </div>
+
+            <div class="book1">
+                <a
+                    href="https://www.amazon.in/Percy-jackson-Complete-Rick-Riordan/dp/0141352027"
+                    target="_blank">
+                    <img src="./images/ph6.jpg" alt>
+                    <p>Percy Jackson Book Set</p></a>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; LitVerse Books Collection. All rights reserved.</p>
+        </footer>
+    </body>
+</html>

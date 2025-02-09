@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Harry Potter Features</title>
+        <link rel="stylesheet" href="./style.css">
+        <style>
+            body{
+                overflow-x: hidden;
+            }
+            body::before{
+                content: "";
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-image: url('./images/bg1.jpg') ;
+                background-size: cover;
+                background-position: center;
+                opacity: 0.8;
+                z-index: -1;
+            }
+            .bookset1{
+                display: flex;
+                gap: 10px;
+                padding: 20px;
+                border-radius: 10px;
+                flex-wrap:wrap;
+                justify-content: space-evenly;
+                height: 500px;
+            }
+            .bookset1 p{
+                color:black;
+            }
+
+            .book1{
+                padding: 10px;
+                background-color: #060707;
+                border: 1px solid #191a1c;
+                border-radius: 5px;
+                text-align: center;
+                font-weight: bold;
+                margin: 30px;
+                width: 250px;
+                height: 350px;
+                justify-content: space-evenly;
+            }
+            .book1 a{
+                text-decoration: none;
+            }
+            .book1 img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <h4
+            style="background-color: black; padding:1px 0px 1px 0px; margin:1px">
+            <nav>
+                <ul>
+                    <li><a href="index.html"><b>Home</b></a></li>
+                    <li><a href="contact.html"><b>Contact</b></a></li>
+                    <li><a href="about.html"><b>About</b></a></li>
+                </ul>
+                <h1
+                    style="font-size:80px; margin:0px;  font-family: 'HarryP', sans-serif; font-weight:200; color:#946b2d; background-color:black; padding:10px; margin:5px;">Harry
+                    Potter World</h1>
+            </nav>
+        </h4>
+
+        <div class="bookset1" style="display: flex; height:900px">
+            <div class="book1">
+                <a
+                    href="https://www.meesho.com/harry-potter-and-the-philosophers-stone/p/5bks46?utm_source=google&utm_medium=cpc&utm_campaign=gmc&srsltid=AfmBOooblt4GBWLymMYVdlP2L5h7fdql7etXuIXyyD13HWdd5melDTFM2dI"
+                    target="_blank">
+                    <img src="./images/h1.jpg" alt>
+                    <p>Harry Potter and the Philosphers Stone</p></a>
+            </div>
+
+            <div class="book1">
+                <a
+                    href="https://www.meesho.com/harry-potter-and-the-chamber-of-secrets-harry-potter-2-paperback/p/379sin"
+                    target="_blank">
+                    <img src="./images/h2.jpg" alt>
+                    <p>Harry Potter and the Chamber of Secrets</p></a>
+            </div>
+
+            <div class="book1">
+                <a
+                    href="https://www.amazon.in/Harry-Potter-Prisoner-Azkaban/dp/1408855674?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1WYWER0W24N8S"
+                    target="_blank">
+                    <img src="./images/h3.jpg" alt>
+                    <p>Harry Potter and the Prisoner of Azkaban</p></a>
+            </div>
+
+            <div class="book1">
+                <a
+                    href="https://www.amazon.in/Harry-Potter-Goblet-Fire/dp/1408855682?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A3H3WE9M6NY1KV2dI"
+                    target="_blank">
+                    <img src="./images/h4.jpg" alt>
+                    <p>Harry Potter and the Goblet of Fire</p></a>
+            </div>
+
+            <div class="book1">
+                <a
+                    href="https://www.amazon.in/HARRY-POTTER-ORDER-PHOENIX-5/dp/1408855690?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A3H3WE9M6NY1KV"
+                    target="_blank">
+                    <img src="./images/h5.jpg" alt>
+                    <p>Harry Potter and the Order of the Phoenix</p></a>
+            </div>
+
+            <div class="book1">
+                <a
+                    href="https://www.meesho.com/harry-potter-and-the-half-blood-prince-6-paperback-1-september-2014/p/512ilc?utm_source=google&utm_medium=cpc&utm_campaign=gmc&srsltid=AfmBOopaxHdERUeuWmyFQGxNUiGB6tHNJiTfMOkdTJQqE5PoN3aCkF0PUZs"
+                    target="_blank">
+                    <img src="./images/h6.jpg" alt>
+                    <p>Harry Potter and the Half Blood Prince</p></a>
+            </div>
+
+            <div class="book1">
+                <a
+                    href="https://www.amazon.in/Harry-Potter-Deathly-Hallows/dp/1408855712?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A3H3WE9M6NY1KV"
+                    target="_blank">
+                    <img src="./images/h7.jpg" alt>
+                    <p>Harry Potter and the Deathly Hallows</p></a>
+            </div>
+
+            <div class="book1">
+                <a
+                    href="https://www.amazon.in/Harry-Potter-ChildrenS-Paperback-Boxed/dp/1408856778?gQT=2"
+                    target="_blank">
+                    <img src="./images/h8.jpg" alt>
+                    <p>Harry potter Book Set</p>
+                </a>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; LitVerse Books Collection. All rights reserved.</p>
+        </footer>
+    </body>
+</html>

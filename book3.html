@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> The Chronicles of Narnia</title>
+        <link rel="stylesheet" href="./style.css">
+        <style>
+            body{
+                overflow-x: hidden;
+            }
+            body::before{
+                content: "";
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-image: url('./images/bg3.jpg') ;
+                background-size: cover;
+                background-position: center;
+                opacity: 0.7;
+                z-index: -1;
+            }
+            .bookset1{
+                display: flex;
+                gap: 10px;
+                padding: 20px;
+                border-radius: 10px;
+                flex-wrap:wrap;
+                justify-content: space-evenly;
+                height: 500px;
+                margin: 20px;
+            }
+            .bookset1 p{
+                color:rgb(18, 17, 17);
+               
+            }
+            .book1{
+                padding: 10px;
+                background-color: #060707;
+                border: 1px solid #191a1c;
+                border-radius: 5px;
+                text-align: center;
+                font-weight: bold;
+                margin: 30px;
+                width: 250px;
+                height: 350px;
+                justify-content: space-evenly;
+            }
+            .book1 a{
+                text-decoration: none;
+            }
+            .book1 img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <header style="background-color: rgb(16, 16, 17);">
+            <nav>
+                <ul>
+                    <li><a href="index.html"><b>Home</b></a></li>
+                    <li><a href="contact.html"><b>Contact</b></a></li>
+                    <li><a href="about.html"><b>About</b></a></li>
+                </ul>
+            </nav>
+            <h1 style="font-size:60px; font-weight:200; font-family:'Narnia BLL';">The Narnia World</h1>
+        </header>
+        <div class="bookset1" style="display: flex; height:900px">
+            <div class="book1">
+                <a
+                    href="https://www.amazon.in/Magicians-Nephew-Chronicles-Narnia/dp/0064471101"
+                    target="_blank">
+                    <img src="./images/i1.jpg" alt>
+                    <p>The Magician's Nephew</p></a>
+            </div>
+
+            <div class="book1">
+                <a
+                    href="https://www.amazon.in/Chronicles-Narnia-Lion-Witch-Wardrobe/dp/9390260531?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1WYWER0W24N8S"
+                    target="_blank">
+                    <img src="./images/i2.jpg" alt>
+                    <p>The Lion, the Witch and the Wardrobe</p></a>
+            </div>
+            
+            <div class="book1">
+                <a
+                    href="https://www.amazon.in/Horse-His-Boy-Chronicles-Narnia/dp/0007363788?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A3H3WE9M6NY1KV"
+                    target="_blank">
+                    <img src="./images/i3.jpg" alt>
+                    <p>The Horse and his Boy</p>
+                </a>
+            </div>
+
+            <div class="book1">
+                <a
+                    href="https://www.amazon.in/Prince-Caspian-Chronicles-Narnia-Lewis/dp/0007363672?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A32LI3OGDV16H3"
+                    target="_blank">
+                    <img src="./images/i4.jpg" alt>
+                    <p>Prince Caspian</p></a>
+            </div>
+
+            <div class="book1">
+                <a
+                    href="https://www.bookchor.com/book/9780007366217/voyage-of-the-dawn-treader"
+                    target="_blank">
+                    <img src="./images/i5.jpg" alt>
+                    <p>The Voyage of the Dawn Treader</p></a>
+            </div>
+
+            <div class="book1">
+                <a
+                    href="https://www.amazon.in/Silver-Chair-Chronicles-Narnia/dp/000736377X?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A3H3WE9M6NY1KV"
+                    target="_blank">
+                    <img src="./images/i6.jpg" alt>
+                    <p>The Silver Chair</p></a>
+            </div>
+
+            <div class="book1">
+                <a
+                    href="https://www.amazon.in/Last-Battle-Chronicles-Narnia/dp/006447108X"
+                    target="_blank">
+                    <img src="./images/i7.jpg" alt>
+                    <p>The Last Battle</p></a>
+            </div>
+
+            <div class="book1">
+                <a
+                    href="https://www.amazon.in/Chronicles-Narnia-Box-Set-Books/dp/0064405370"
+                    target="_blank">
+                    <img src="./images/i8.jpg" alt>
+                    <p>The Chronicles of Narnia Book Set</p></a>
+            </div>
+
+        </div>
+
+        <footer>
+            <p>&copy;LitVerse Books Collection. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
+
+
+
